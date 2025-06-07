@@ -1,6 +1,6 @@
-Here's a **reframed and professionally polished version** of your `README.md` file for the 3-Tier Application project:
-
 # 🚀 3-Tier Web Application Deployment on Azure
+
+---
 
 This project demonstrates the deployment of a **3-Tier Web Application** using:
 
@@ -23,13 +23,13 @@ This project demonstrates the deployment of a **3-Tier Web Application** using:
 ## 📦 Project Structure
 
 ```
-📁 frontend/       --> React.js App
-📁 backend/        --> FastAPI App with MS SQL Server
+📁 React_Frontend/       --> React.js App
+📁 Python_Backend/        --> FastAPI App with MS SQL Server
 ```
 
 ---
 
-## 🌐 Frontend Setup (React.js)
+## 🌐 Frontend Setup
 
 ### ⚙️ Prerequisites
 
@@ -47,7 +47,7 @@ sudo apt install nodejs -y
 
 * Navigate to: `src/TodoApp.js`
 * Update the backend URL with your API endpoint
-  (e.g., `http://<VM_Private_IP>:8000/api/tasks`)
+  (e.g., `http://<VM_Private_IP>:8000/api`)
 
 ### 🚀 Run the Application
 
@@ -150,5 +150,3 @@ http://<VM_Public_IP>:8000/docs
 * Configure Azure NSG rules to allow traffic between frontend and backend as well as external access on ports (e.g., 80/443/8000).
 
 ---
-
-Let me know if you'd like to include deployment architecture diagrams or Azure resource provisioning steps using Terraform or ARM templates.
